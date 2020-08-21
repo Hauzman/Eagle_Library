@@ -4,7 +4,6 @@ In this library you can find some of my eagle lib I have made.
 
 **The Lib. is made based on the datasheet**
 
-Update: 21.08.2020
 
 ### Eagle Library <a name="id3"></a>
 
