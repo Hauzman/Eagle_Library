@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_2695092"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-19-03:12:00)
+    (utime 2019-10-19-07:12:26)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MF2410F2_000TM")
+)
+
+
+(pinAssign "ECS_2695092"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-19-03:12:00)
+    (utime 2019-10-19-07:12:26)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2695092")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MF2410F2_000TM")
+)
+
+
+(part "MF2410F2_000TM"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-19-03:12:00)
+    (utime 2019-10-19-07:12:26)
+    (packageRef "MF2410F2_000TM")
+    (pinAssignRef "ECS_2695092")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "F")
+    (property "description" "Surface Mount Fuses 250V 2.00A Inrush Current")
+    (property "Manufacturer_Name" "AEM")
+    (property "Manufacturer_Part_Number" "MF2410F2.000TM")
+    (property "Mouser_Part_Number" "637-MF2410F2.000TM")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=637-MF2410F2.000TM")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.mouser.com/datasheet/2/9/MF2410 Datasheet2013-1155489.pdf")
+    (property "compAreaTopHeight" 2.36)
+)
+
+
