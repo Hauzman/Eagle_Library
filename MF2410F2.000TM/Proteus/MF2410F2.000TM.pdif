@@ -1,0 +1,93 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MF2410F2.000TM"
+   (description "Surface Mount Fuses 250V 2.00A Inrush Current")
+   (family "FUS")
+   (package "FUSC6125X236N")
+   (attribute "Datasheet Link" "https://www.mouser.com/datasheet/2/9/MF2410 Datasheet2013-1155489.pdf")
+   (attribute "Geometry.Height" "2.36mm")
+   (attribute "Manufacturer_Name" "AEM")
+   (attribute "Manufacturer_Part_Number" "MF2410F2.000TM")
+   (attribute "Mouser Part Number" "637-MF2410F2.000TM")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=637-MF2410F2.000TM")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (gate
+    (symbol "MF2410F2.000TM")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MF2410F2.000TM"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FUSC6125X236N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.735 1.58)
+      (pt 3.735 1.58)
+      (pt 3.735 -1.58)
+      (pt -3.735 -1.58)
+      (pt -3.735 1.58))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.05 1.245)
+      (pt 3.05 1.245)
+      (pt 3.05 -1.245)
+      (pt -3.05 -1.245)
+      (pt -3.05 1.245))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1.145)
+      (pt 0 -1.145))))
+   (leg 1 (pt -2.45 0) (padstack 0))
+   (leg 2 (pt 2.45 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.07 2.66 0 0 90))
+   )
+   (model "MF2410F2.000TM.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

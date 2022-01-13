@@ -1,0 +1,18 @@
+.MF2410F2.000TM :1 ;Surface Mount Fuses 250V 2.00A Inrush Current
+FUSC6125X236N
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF2410F2.000TM
+~!Manufacturer_Name (AEM)
+~!Manufacturer_Part_Number (MF2410F2.000TM)
+~!Mouser Part Number (637-MF2410F2.000TM)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=637-MF2410F2.000TM)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/9/MF2410 Datasheet2013-1155489.pdf)
+~!Height (2.36mm)
+~!3D_Model (MF2410F2.000TM)
+MF2410F2.000TM
+1.1!U 2.1!U 

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.01" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QTH-090-01-L-D-A">
+<hole x="0" y="0" drill="1.02"/>
+<hole x="58.48" y="0" drill="1.02"/>
+<smd name="PAD1" x="1.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD2" x="2.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD3" x="2.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD4" x="3.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD5" x="3.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD6" x="4.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD7" x="4.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD8" x="5.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD9" x="5.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD10" x="6.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD11" x="6.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD12" x="7.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD13" x="7.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD14" x="8.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD15" x="8.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD16" x="9.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD17" x="9.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD18" x="10.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD19" x="10.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD20" x="11.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD21" x="11.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD22" x="12.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD23" x="12.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD24" x="13.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD25" x="13.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD26" x="14.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD27" x="14.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD28" x="15.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD29" x="15.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD30" x="16.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD31" x="21.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD32" x="22.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD33" x="22.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD34" x="23.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD35" x="23.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD36" x="24.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD37" x="24.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD38" x="25.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD39" x="25.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD40" x="26.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD41" x="26.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD42" x="27.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD43" x="27.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD44" x="28.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD45" x="28.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD46" x="29.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD47" x="29.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD48" x="30.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD49" x="30.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD50" x="31.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD51" x="31.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD52" x="32.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD53" x="32.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD54" x="33.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD55" x="33.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD56" x="34.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD57" x="34.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD58" x="35.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD59" x="35.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD60" x="36.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD61" x="41.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD62" x="42.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD63" x="42.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD64" x="43.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD65" x="43.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD66" x="44.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD67" x="44.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD68" x="45.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD69" x="45.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD70" x="46.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD71" x="46.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD72" x="47.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD73" x="47.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD74" x="48.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD75" x="48.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD76" x="49.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD77" x="49.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD78" x="50.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD79" x="50.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD80" x="51.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD81" x="51.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD82" x="52.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD83" x="52.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD84" x="53.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD85" x="53.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD86" x="54.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD87" x="54.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD88" x="55.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD89" x="55.989" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD90" x="56.489" y="1.05" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD91" x="56.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD92" x="55.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD93" x="55.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD94" x="54.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD95" x="54.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD96" x="53.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD97" x="53.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD98" x="52.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD99" x="52.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD100" x="51.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD101" x="51.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD102" x="50.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD103" x="50.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD104" x="49.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD105" x="49.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD106" x="48.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD107" x="48.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD108" x="47.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD109" x="47.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD110" x="46.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD111" x="46.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD112" x="45.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD113" x="45.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD114" x="44.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD115" x="44.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD116" x="43.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD117" x="43.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD118" x="42.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD119" x="42.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD120" x="41.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD121" x="36.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD122" x="35.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD123" x="35.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD124" x="34.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD125" x="34.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD126" x="33.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD127" x="33.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD128" x="32.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD129" x="32.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD130" x="31.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD131" x="31.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD132" x="30.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD133" x="30.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD134" x="29.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD135" x="29.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD136" x="28.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD137" x="28.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD138" x="27.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD139" x="27.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD140" x="26.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD141" x="26.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD142" x="25.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD143" x="25.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD144" x="24.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD145" x="24.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD146" x="23.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD147" x="23.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD148" x="22.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD149" x="22.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD150" x="21.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD151" x="16.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD152" x="15.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD153" x="15.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD154" x="14.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD155" x="14.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD156" x="13.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD157" x="13.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD158" x="12.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD159" x="12.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD160" x="11.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD161" x="11.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD162" x="10.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD163" x="10.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD164" x="9.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD165" x="9.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD166" x="8.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD167" x="8.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD168" x="7.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD169" x="7.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD170" x="6.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD171" x="6.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD172" x="5.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD173" x="5.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD174" x="4.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD175" x="4.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD176" x="3.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD177" x="3.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD178" x="2.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD179" x="2.489" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+<smd name="PAD180" x="1.989" y="-4.92" dx="0.305" dy="1.45" layer="1"/>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>

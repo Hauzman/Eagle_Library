@@ -1,0 +1,2214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="NonViaHole" color="14" fill="1" visible="no" active="yes"/>
+<layer number="101" name="PlacementGuide" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Common Voltage Regulators&lt;/b&gt;
+&lt;p&gt;Created by Michael Shimniok &lt;a href="http://www.bot-thoughts.com/"&gt;www.bot-thoughts.com&lt;/a&gt;&lt;/b&gt;</description>
+<packages>
+<package name="SOT23-6">
+<description>&lt;B&gt;SOT23-6 package&lt;/B&gt;
+
+&lt;P&gt;This is the DBV6 package from Texas Instruments. It differs from the one in the Eagle libraries (there are two versions in ref-packages.lbr) in that the pad dimensions are 0.5mm x 1.4mm, as in the TI recommendation.
+&lt;P&gt;The pin spacing is 0.95mm, and the package body has nominal dimensions 2.9mm long by 1.6mm wide.</description>
+<wire x1="1.422" y1="-0.781" x2="-1.423" y2="-0.781" width="0.1524" layer="51"/>
+<wire x1="-1.423" y1="-0.781" x2="-1.423" y2="0.781" width="0.2032" layer="21"/>
+<wire x1="-1.423" y1="0.781" x2="1.422" y2="0.781" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="0.781" x2="1.422" y2="-0.781" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-0.5" y2="-0.7" width="0.2032" layer="21"/>
+<circle x="-1.0738" y="-0.4492" radius="0.1" width="0" layer="51"/>
+<smd name="1" x="-0.95" y="-1.1" dx="0.5" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.5" dy="1.4" layer="1"/>
+<smd name="3" x="0.95" y="-1.1" dx="0.5" dy="1.4" layer="1"/>
+<smd name="4" x="0.95" y="1.1" dx="0.5" dy="1.4" layer="1"/>
+<smd name="5" x="0" y="1.1" dx="0.5" dy="1.4" layer="1"/>
+<smd name="6" x="-0.95" y="1.1" dx="0.5" dy="1.4" layer="1"/>
+<text x="-1.524" y="-2.794" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<text x="-1.524" y="2.286" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<rectangle x1="-1.2" y1="-1.4" x2="-0.7" y2="-0.8" layer="51"/>
+<rectangle x1="-0.25" y1="-1.4" x2="0.25" y2="-0.8" layer="51"/>
+<rectangle x1="0.7" y1="-1.4" x2="1.2" y2="-0.8" layer="51"/>
+<rectangle x1="0.7" y1="0.8" x2="1.2" y2="1.4" layer="51"/>
+<rectangle x1="-1.2" y1="0.8" x2="-0.7" y2="1.4" layer="51"/>
+<rectangle x1="-0.25" y1="0.8" x2="0.25" y2="1.4" layer="51"/>
+</package>
+<package name="TO263-5">
+<description>&lt;b&gt;TO-263&lt;/b&gt;</description>
+<wire x1="5.094" y1="7.165" x2="5.094" y2="-2.88" width="0.2032" layer="51"/>
+<wire x1="5.094" y1="-2.88" x2="-5.094" y2="-2.88" width="0.2032" layer="21"/>
+<wire x1="-5.094" y1="-2.88" x2="-5.094" y2="7.165" width="0.2032" layer="51"/>
+<wire x1="-5.094" y1="7.165" x2="5.094" y2="7.165" width="0.2032" layer="51"/>
+<wire x1="-5.105" y1="7.267" x2="-5.105" y2="7.678" width="0.2032" layer="51"/>
+<wire x1="-5.105" y1="7.678" x2="-3.378" y2="8.135" width="0.2032" layer="51"/>
+<wire x1="-3.378" y1="8.135" x2="3.378" y2="8.135" width="0.2032" layer="51"/>
+<wire x1="3.378" y1="8.135" x2="5.105" y2="7.678" width="0.2032" layer="51"/>
+<wire x1="5.105" y1="7.678" x2="5.105" y2="7.267" width="0.2032" layer="51"/>
+<wire x1="5.105" y1="7.267" x2="-5.105" y2="7.267" width="0.2032" layer="51"/>
+<smd name="6" x="0" y="2.54" dx="10.8" dy="10.41" layer="1"/>
+<smd name="1" x="-3.4036" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="2" x="-1.7018" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="3" x="0" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="4" x="1.7018" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="5" x="3.4036" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
+<text x="-5.588" y="-5.588" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.858" y="-5.588" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-3.8862" y1="-6.604" x2="-2.921" y2="-4.445" layer="51"/>
+<rectangle x1="-3.8862" y1="-4.4704" x2="-2.921" y2="-2.794" layer="21"/>
+<rectangle x1="-2.1844" y1="-6.604" x2="-1.2192" y2="-4.445" layer="51"/>
+<rectangle x1="-0.4826" y1="-6.604" x2="0.4826" y2="-4.445" layer="51"/>
+<rectangle x1="1.2192" y1="-6.604" x2="2.1844" y2="-4.445" layer="51"/>
+<rectangle x1="2.921" y1="-6.604" x2="3.8862" y2="-4.445" layer="51"/>
+<rectangle x1="-2.1844" y1="-4.4704" x2="-1.2192" y2="-2.794" layer="21"/>
+<rectangle x1="-0.4826" y1="-4.4704" x2="0.4826" y2="-2.794" layer="21"/>
+<rectangle x1="1.2192" y1="-4.4704" x2="2.1844" y2="-2.794" layer="21"/>
+<rectangle x1="2.921" y1="-4.4704" x2="3.8862" y2="-2.794" layer="21"/>
+<polygon width="0.2032" layer="51">
+<vertex x="-5.1054" y="7.267"/>
+<vertex x="-5.1054" y="7.6782"/>
+<vertex x="-3.3782" y="8.1354"/>
+<vertex x="3.3782" y="8.1354"/>
+<vertex x="5.1054" y="7.6782"/>
+<vertex x="5.1054" y="7.267"/>
+</polygon>
+</package>
+<package name="TO220-5">
+<description>&lt;b&gt;TO220-5&lt;/b&gt;</description>
+<wire x1="-1.87" y1="-0.2" x2="-1.87" y2="-0.3" width="0.0508" layer="51"/>
+<wire x1="-1.87" y1="-0.4" x2="-1.87" y2="-0.5" width="0.0508" layer="51"/>
+<wire x1="-1.87" y1="-0.6" x2="-1.87" y2="-0.7" width="0.0508" layer="51"/>
+<wire x1="-1.87" y1="-1" x2="-1.87" y2="-1.17" width="0.0508" layer="51"/>
+<wire x1="1.87" y1="-1.17" x2="1.87" y2="-1" width="0.0508" layer="51"/>
+<wire x1="1.87" y1="-0.9" x2="1.87" y2="-0.8" width="0.0508" layer="51"/>
+<wire x1="1.87" y1="-0.7" x2="1.87" y2="-0.6" width="0.0508" layer="51"/>
+<wire x1="1.87" y1="-0.5" x2="1.87" y2="-0.4" width="0.0508" layer="51"/>
+<wire x1="1.87" y1="-0.3" x2="1.87" y2="-0.2" width="0.0508" layer="51"/>
+<wire x1="-5" y1="-0.1" x2="-5" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-4.9" y1="-1.2" x2="-4.9" y2="-3.6" width="0.2032" layer="51"/>
+<wire x1="-4.9" y1="-3.6" x2="-4.5" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="4.5" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="4.9" y2="-3.6" width="0.2032" layer="51"/>
+<wire x1="4.9" y1="-3.6" x2="4.9" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="5" y1="-1.2" x2="5" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="5" y1="-0.1" x2="-5" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-1.2" x2="5" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-1.87" y1="-0.8" x2="-1.87" y2="-0.9" width="0.0508" layer="51"/>
+<wire x1="-4.9" y1="-3.6" x2="4.9" y2="-3.6" width="0.2032" layer="51"/>
+<pad name="2" x="-1.7" y="-4.5" drill="0.9" shape="long" rot="R90"/>
+<pad name="4" x="1.7" y="-4.5" drill="0.9" shape="long" rot="R90"/>
+<pad name="1" x="-3.4" y="-8.4" drill="0.9" shape="long" rot="R90"/>
+<pad name="3" x="0" y="-8.4" drill="0.9" shape="long" rot="R90"/>
+<pad name="5" x="3.4" y="-8.4" drill="0.9" shape="long" rot="R90"/>
+<text x="-5.08" y="-8.382" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.35" y="-8.382" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-3.8" y1="-8.6" x2="-3" y2="-7.5" layer="51"/>
+<rectangle x1="-0.4" y1="-8.6" x2="0.4" y2="-7.5" layer="51"/>
+<rectangle x1="3" y1="-8.6" x2="3.8" y2="-7.5" layer="51"/>
+<rectangle x1="-3.8" y1="-7.5" x2="-3" y2="-4.5" layer="51"/>
+<rectangle x1="-0.4" y1="-7.5" x2="0.4" y2="-4.5" layer="51"/>
+<rectangle x1="3" y1="-7.5" x2="3.8" y2="-4.5" layer="51"/>
+<rectangle x1="-2.1" y1="-4.7" x2="-1.3" y2="-4.5" layer="51"/>
+<rectangle x1="1.3" y1="-4.7" x2="2.1" y2="-4.5" layer="51"/>
+</package>
+<package name="SO08">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+body 3.9 mm/JEDEC MS-012AA</description>
+<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.1778" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.1778" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.1778" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.1778" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.0508" layer="51"/>
+<circle x="-1.905" y="-0.9525" radius="0.2245" width="0" layer="21"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.69" dy="0.99" layer="1"/>
+<text x="-1.778" y="0" size="0.6096" layer="27" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.43" y1="0.8" x2="1.43" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.43" y1="-0.8" x2="-1.41" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.41" y1="-0.8" x2="-1.41" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.41" y1="0.8" x2="1.43" y2="0.8" width="0.127" layer="51"/>
+<text x="-0.495" y="-0.395" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<rectangle x1="-1.1" y1="0.8" x2="-0.77" y2="1.43" layer="51"/>
+<rectangle x1="0.8" y1="0.8" x2="1.13" y2="1.42" layer="51"/>
+<rectangle x1="-1.1" y1="-1.42" x2="-0.77" y2="-0.8" layer="51"/>
+<rectangle x1="-0.15" y1="-1.42" x2="0.18" y2="-0.8" layer="51"/>
+<rectangle x1="0.8" y1="-1.42" x2="1.13" y2="-0.8" layer="51"/>
+<rectangle x1="-1.365" y1="-0.75" x2="-0.615" y2="0" layer="21"/>
+</package>
+<package name="DPAK">
+<description>&lt;B&gt;D-PAK SMT Package&lt;/B&gt;
+&lt;P&gt;Similar to TO-252, but pad size and spacing as suggested by ST Microelectronics LD1117 devices&lt;/B&gt;</description>
+<wire x1="3.7766" y1="3.8354" x2="3.777" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.777" y1="-2.159" x2="-3.777" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.777" y1="-2.159" x2="-3.7766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-3.973" y1="5.983" x2="4.073" y2="5.983" width="0.0508" layer="39"/>
+<wire x1="4.073" y1="-6.783" x2="-3.973" y2="-6.783" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-6.783" x2="-3.973" y2="5.983" width="0.0508" layer="39"/>
+<wire x1="4.073" y1="5.983" x2="4.073" y2="-6.783" width="0.0508" layer="39"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="4" x="0" y="1.86" dx="6.7" dy="6.7" layer="1"/>
+<smd name="1" x="-2.3" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.3" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<text x="-3.24" y="6.21" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-4.32" y="-2.44" size="1.27" layer="27" font="vector" ratio="16" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+<package name="SOT-223-3">
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-2.7305" y="0.1905" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.7305" y="-1.2065" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+<package name="TO220L1">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="10">A15,2mm</text>
+<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">2</text>
+<text x="2.032" y="0" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
+<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
+<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
+<pad name="4" x="0" y="11.176" drill="3.2"/>
+</package>
+<package name="TO220S">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-5.9182" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
+<rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
+<rectangle x1="-0.889" y1="-0.762" x2="0.889" y2="0" layer="21"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="0" layer="21"/>
+<rectangle x1="1.651" y1="-0.762" x2="3.429" y2="0" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
+<package name="TO263-3">
+<wire x1="5.094" y1="5.895" x2="5.094" y2="-4.15" width="0.2032" layer="51"/>
+<wire x1="5.094" y1="-4.15" x2="-5.094" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-5.094" y1="-4.15" x2="-5.094" y2="5.895" width="0.2032" layer="51"/>
+<wire x1="-5.094" y1="5.895" x2="5.094" y2="5.895" width="0.2032" layer="51"/>
+<wire x1="-5.105" y1="5.997" x2="-5.105" y2="6.408" width="0.2032" layer="51"/>
+<wire x1="-5.105" y1="6.408" x2="-3.378" y2="6.865" width="0.2032" layer="51"/>
+<wire x1="-3.378" y1="6.865" x2="3.378" y2="6.865" width="0.2032" layer="51"/>
+<wire x1="3.378" y1="6.865" x2="5.105" y2="6.408" width="0.2032" layer="51"/>
+<wire x1="5.105" y1="6.408" x2="5.105" y2="5.997" width="0.2032" layer="51"/>
+<wire x1="5.105" y1="5.997" x2="-5.105" y2="5.997" width="0.2032" layer="51"/>
+<smd name="TAB" x="0" y="3.81" dx="10.795" dy="7.493" layer="1"/>
+<smd name="1" x="-2.54" y="-7.0612" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="2" x="0" y="-7.0612" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="3" x="2.54" y="-7.0612" dx="1.0668" dy="2.159" layer="1"/>
+<text x="-5.588" y="-6.858" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.858" y="-6.858" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-7.874" x2="2.921" y2="-5.715" layer="51"/>
+<rectangle x1="-2.921" y1="-5.7404" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-7.874" x2="0.381" y2="-5.715" layer="51"/>
+<rectangle x1="-0.381" y1="-5.7404" x2="0.381" y2="-4.064" layer="21"/>
+<polygon width="0.2032" layer="51">
+<vertex x="-5.1054" y="5.997"/>
+<vertex x="-5.1054" y="6.4082"/>
+<vertex x="-3.3782" y="6.8654"/>
+<vertex x="3.3782" y="6.8654"/>
+<vertex x="5.1054" y="6.4082"/>
+<vertex x="5.1054" y="5.997"/>
+</polygon>
+<rectangle x1="-2.921" y1="-7.874" x2="-2.159" y2="-5.715" layer="51"/>
+<rectangle x1="2.159" y1="-5.7404" x2="2.921" y2="-4.064" layer="21"/>
+</package>
+<package name="D2PACK">
+<description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
+Source: INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
+<wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
+<wire x1="3.1242" y1="5.8166" x2="-3.3782" y2="5.8166" width="0.254" layer="51"/>
+<wire x1="-3.3782" y1="5.8166" x2="-5.1308" y2="4.699" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.699" x2="-5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.445" x2="-5.1308" y2="-4.0894" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.445" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="-4.0894" x2="-5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="4" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
+<text x="-5.588" y="7.239" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.0988" y1="-9.525" x2="-1.9812" y2="-8.1026" layer="51"/>
+<rectangle x1="-3.2512" y1="-8.1534" x2="-1.8288" y2="-6.731" layer="51"/>
+<rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
+<rectangle x1="1.9812" y1="-9.525" x2="3.0988" y2="-8.1026" layer="51"/>
+<rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
+<rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
+<rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
+</package>
+<package name="D2PACK-3">
+<wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
+<wire x1="-5.1308" y1="-4.0894" x2="-5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="2" x="0" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="4" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
+<text x="-5.588" y="7.239" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
+<rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
+<rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
+<smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+</package>
+<package name="TO220BV">
+<description>&lt;B&gt;TO220BV&lt;/B&gt; from transistor-power.lbr</description>
+<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-1.778" x2="-4.699" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-1.1684" radius="0.254" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="0" y="2.794" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="1.778" x2="5.334" y2="2.54" layer="21"/>
+<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.778" layer="21"/>
+<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.778" layer="21"/>
+<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.778" layer="51"/>
+<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.778" layer="21"/>
+<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.778" layer="21"/>
+<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
+<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
+</package>
+<package name="TO220BH">
+<description>&lt;b&gt;TO220 Horizontal&lt;/b&gt;&lt;p&gt;
+From transistor-power.lbr</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
+<pad name="1" x="-2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<text x="-3.81" y="5.207" size="1.778" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<text x="-4.445" y="7.874" size="1.016" layer="21" ratio="10">A17,5mm</text>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-4.064" layer="21"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-3.175" y1="-4.064" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-4.064" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-4.064" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="-2.921" y1="-6.604" x2="-2.159" y2="-4.699" layer="51"/>
+<rectangle x1="-0.381" y1="-6.604" x2="0.381" y2="-4.699" layer="51"/>
+<rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
+</package>
+<package name="TO-PMOD">
+<smd name="1" x="-3.81" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<smd name="PAD" x="0" y="7.035" dx="8.54" dy="5.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.54" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<smd name="3" x="-1.27" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<smd name="4" x="0" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<smd name="5" x="1.27" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<smd name="7" x="3.81" y="0" dx="3.048" dy="0.889" layer="1" rot="R90"/>
+<wire x1="-5.5" y1="2.4" x2="5.5" y2="2.4" width="0.127" layer="21"/>
+<wire x1="5.5" y1="2.4" x2="5.5" y2="12.2" width="0.127" layer="21"/>
+<wire x1="5.5" y1="12.2" x2="-5.5" y2="12.2" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="12.2" x2="-5.5" y2="2.4" width="0.127" layer="21"/>
+<rectangle x1="0.92" y1="-0.554" x2="1.62" y2="2.454" layer="21"/>
+<rectangle x1="2.19" y1="-0.554" x2="2.89" y2="2.454" layer="21"/>
+<rectangle x1="3.46" y1="-0.554" x2="4.16" y2="2.454" layer="21"/>
+<rectangle x1="-0.35" y1="-0.554" x2="0.35" y2="2.454" layer="21"/>
+<rectangle x1="-1.62" y1="-0.554" x2="-0.92" y2="2.454" layer="21"/>
+<rectangle x1="-2.89" y1="-0.554" x2="-2.19" y2="2.454" layer="21"/>
+<rectangle x1="-4.16" y1="-0.554" x2="-3.46" y2="2.454" layer="21"/>
+<text x="-5.334" y="12.573" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="5.461" y="12.573" size="1.016" layer="27" font="vector" ratio="12" align="bottom-right">&gt;VALUE</text>
+</package>
+<package name="SO-8EP">
+<wire x1="2.4" y1="1.95" x2="2.4" y2="-1.95" width="0.1778" layer="21"/>
+<wire x1="2.4" y1="-1.95" x2="-2.4" y2="-1.95" width="0.1778" layer="51"/>
+<wire x1="-2.4" y1="-1.95" x2="-2.4" y2="1.95" width="0.1778" layer="21"/>
+<wire x1="-2.4" y1="1.95" x2="2.4" y2="1.95" width="0.1778" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.0508" layer="51"/>
+<circle x="-2.54" y="-2.54" radius="0.2245" width="0" layer="21"/>
+<smd name="2" x="-0.635" y="-2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="7" x="-0.635" y="2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="1" x="-1.905" y="-2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="3" x="0.635" y="-2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="4" x="1.905" y="-2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="8" x="-1.905" y="2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="6" x="0.635" y="2.7" dx="0.6" dy="1.5" layer="1"/>
+<smd name="5" x="1.905" y="2.7" dx="0.6" dy="1.5" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<smd name="PAD" x="0" y="0" dx="3.6" dy="2.7" layer="1"/>
+</package>
+<package name="POLOLU-S10V4">
+<pad name="VOUT" x="-3.81" y="0" drill="0.8" shape="square"/>
+<pad name="GND" x="-1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="VIN" x="1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="!SHDN" x="3.81" y="0" drill="0.8" shape="octagon"/>
+<text x="3.81" y="1.905" size="1.016" layer="25" font="vector" rot="R90" align="center-left">!SHDN</text>
+<text x="-1.27" y="1.905" size="1.016" layer="25" font="vector" rot="R90" align="center-left">GND</text>
+<text x="1.27" y="1.905" size="1.016" layer="25" font="vector" rot="R90" align="center-left">VIN</text>
+<text x="-3.81" y="1.905" size="1.016" layer="25" font="vector" rot="R90" align="center-left">VOUT</text>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
+<text x="-5.715" y="-1.27" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-1.27" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+</package>
+<package name="TO92D-">
+<description>&lt;B&gt;TO92/TO-226AA Package&lt;/B&gt;
+&lt;P&gt;Corresponds to TI LP package</description>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.127" layer="21" curve="-180" cap="flat"/>
+<wire x1="2.032" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21" curve="31.048222" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="-1.27" width="0.127" layer="21" curve="31.048222" cap="flat"/>
+<wire x1="-2.032" y1="-1.27" x2="2.032" y2="-1.27" width="0.127" layer="21"/>
+<pad name="1" x="-1.905" y="0" drill="0.762" shape="octagon"/>
+<pad name="2" x="-0.0254" y="0" drill="0.762" shape="octagon"/>
+<pad name="3" x="1.905" y="0" drill="0.762" shape="octagon"/>
+<text x="0" y="2.921" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TO220BH-NH">
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="51"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="51"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="51"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="51"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="51"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="51"/>
+<pad name="1" x="-2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<text x="0" y="5.207" size="1.778" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.778" layer="27" font="vector" ratio="12" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-4.064" layer="21"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-3.175" y1="-4.064" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-4.064" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-4.064" x2="3.175" y2="-1.27" layer="21"/>
+</package>
+<package name="SC70-6">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="5" x="-0.015" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
+<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
+<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
+<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
+<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<smd name="6" x="-0.62" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MIC5320">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="-13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="11.43" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="VIN" x="-15.24" y="7.62" visible="pin" length="middle" direction="sup"/>
+<pin name="EN1" x="-15.24" y="2.54" visible="pin" length="middle" direction="in"/>
+<pin name="EN2" x="-15.24" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="GND" x="-15.24" y="-7.62" visible="pin" length="middle" direction="sup"/>
+<pin name="VOUT1" x="15.24" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT2" x="15.24" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="LM2931-ADJ">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.28" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="ON" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<pin name="OUT" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="ADJ" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+</symbol>
+<symbol name="LP2980">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.72" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="ON" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="VOUT" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="V-REG-5-EN-ADJ">
+<description>Adjustable, 5-pin regulator with enable/shutdown</description>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="10.16" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="ADJ" x="10.16" y="0" visible="pin" length="short" direction="in" rot="R180"/>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+</symbol>
+<symbol name="V-REG-5-EN-FIX">
+<description>Fixed, 5-pin regulator with enable/shutdown</description>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="10.16" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="NC" x="10.16" y="0" visible="pin" length="short" direction="nc" rot="R180"/>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+</symbol>
+<symbol name="V-REG-3-FIX">
+<description>Fixed, 3-pin voltage regulator</description>
+<pin name="VIN" x="-7.62" y="0" visible="off" length="short" direction="pwr"/>
+<pin name="VOUT" x="7.62" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-5.08" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+<text x="-4.064" y="0" size="1.524" layer="95" align="center-left">IN</text>
+<text x="4.064" y="0" size="1.524" layer="95" align="center-right">OUT</text>
+</symbol>
+<symbol name="V-REG-3-FIX-HS">
+<description>Fixed, 3-pin regulator with package tab</description>
+<pin name="VIN" x="-7.62" y="0" visible="off" length="short" direction="pwr"/>
+<pin name="VOUT" x="7.62" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-5.08" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+<text x="-4.064" y="0" size="1.524" layer="95" align="center-left">IN</text>
+<text x="4.064" y="0" size="1.524" layer="95" align="center-right">OUT</text>
+<pin name="HEATSINK" x="7.62" y="-2.54" visible="off" length="short" direction="sup" rot="R180"/>
+</symbol>
+<symbol name="V-REG-3-FIX-TAB">
+<description>Fixed, 3-pin regulator with package tab</description>
+<pin name="VIN" x="-7.62" y="0" visible="off" length="short" direction="pwr"/>
+<pin name="VOUT" x="7.62" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-5.08" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+<text x="-4.064" y="0" size="1.524" layer="95" align="center-left">IN</text>
+<text x="4.064" y="0" size="1.524" layer="95" align="center-right">OUT</text>
+<pin name="TAB" x="7.62" y="-2.54" visible="off" length="short" direction="sup" rot="R180"/>
+</symbol>
+<symbol name="V-REG-5-EN-PWRGD">
+<description>Fixed, 5-pin regulator with power-good pin and enable/shutdown</description>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="10.16" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="PGD" x="10.16" y="0" visible="pin" length="short" direction="in" rot="R180"/>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+</symbol>
+<symbol name="V-REG-5-EN-BYP">
+<description>5-pin, fixed regulator with reference bypass</description>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="EN" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="BYP" x="10.16" y="0" length="short" rot="R180"/>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+</symbol>
+<symbol name="VREG">
+<description>Fixed, 3-pin voltage regulator</description>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-5.08" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-1.778" size="1.524" layer="95" align="bottom-center">GND</text>
+<text x="-4.064" y="2.54" size="1.524" layer="95" align="center-left">IN</text>
+<text x="4.064" y="2.54" size="1.524" layer="95" align="center-right">OUT</text>
+<pin name="IN" x="-7.62" y="2.54" visible="off" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="7.62" y="2.54" visible="off" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="LMZ14202">
+<pin name="VIN" x="0" y="0" length="middle" rot="R90"/>
+<pin name="RON" x="2.54" y="0" length="middle" rot="R90"/>
+<pin name="EN" x="5.08" y="0" length="middle" rot="R90"/>
+<pin name="GND" x="7.62" y="0" length="middle" rot="R90"/>
+<pin name="SS" x="10.16" y="0" length="middle" rot="R90"/>
+<pin name="FB" x="12.7" y="0" length="middle" rot="R90"/>
+<pin name="VOUT" x="15.24" y="0" length="middle" rot="R90"/>
+<pin name="THERMAL" x="17.78" y="0" length="middle" rot="R90"/>
+<wire x1="-2.54" y1="5.08" x2="20.32" y2="5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="-2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-1.27" y="23.114" size="1.6764" layer="104" ratio="12">&gt;NAME</text>
+<text x="-1.27" y="20.828" size="1.6764" layer="104" ratio="12">&gt;VALUE</text>
+<text x="-1.778" y="17.78" size="1.6764" layer="97" ratio="12">LMZ1420x</text>
+</symbol>
+<symbol name="SWREG1">
+<pin name="VIN" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle"/>
+<pin name="FB" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="COMP" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="EN" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="SW" x="-15.24" y="0" length="middle"/>
+<pin name="BS" x="-15.24" y="5.08" length="middle"/>
+<pin name="SS" x="15.24" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-9.906" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="HEATSINK" x="-15.24" y="-5.08" length="middle"/>
+</symbol>
+<symbol name="V-REG-5-EN">
+<description>Fixed, voltage regulator with enable/shutdown</description>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="OUT" x="10.16" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<text x="0" y="-4.318" size="1.524" layer="95" align="bottom-center">GND</text>
+</symbol>
+<symbol name="AP1509">
+<description>AP1509 150KHz, 2A PWM BUCK DC/DC CONVERTER</description>
+<pin name="VIN" x="-12.7" y="7.62" length="short" direction="pwr"/>
+<pin name="OUT" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="SD" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="FB" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND1" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="GND2" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="GND3" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="GND4" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RT8293B">
+<pin name="VIN" x="-15.24" y="10.16" length="middle"/>
+<pin name="EN" x="-15.24" y="5.08" length="middle"/>
+<pin name="SS" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="-10.16" length="middle"/>
+<pin name="BOOT" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="SW" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="FB" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="COMP" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="13.462" size="1.778" layer="104">&gt;NAME</text>
+<text x="-10.16" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PAD" x="15.24" y="-10.16" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TPS56320X">
+<description>TPS56320X switching regulator with feedback, switching output, enable</description>
+<pin name="VIN" x="-12.7" y="12.7" length="middle"/>
+<pin name="GND" x="-12.7" y="-12.7" length="middle"/>
+<pin name="SW" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="VBST" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="FB" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="EN" x="-12.7" y="7.62" length="middle"/>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="16.256" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TLV61224">
+<description>TLV61224 boost regulator symbol</description>
+<pin name="L" x="-12.7" y="7.62" length="middle"/>
+<pin name="VIN" x="-12.7" y="2.54" length="middle"/>
+<pin name="EN" x="-12.7" y="-2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="-7.62" length="middle"/>
+<pin name="VOUT" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="FB" x="12.7" y="0" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="10.668" size="1.6764" layer="104">&gt;NAME</text>
+<text x="-7.62" y="-12.446" size="1.6764" layer="104">&gt;VALUE</text>
+</symbol>
+<symbol name="TLV61220">
+<description>TLV61220 boost voltage regulator</description>
+<pin name="SW" x="-15.24" y="7.62" length="middle"/>
+<pin name="VBAT" x="-15.24" y="2.54" length="middle"/>
+<pin name="EN" x="-15.24" y="-2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="-7.62" length="middle"/>
+<pin name="FB" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="VOUT" x="15.24" y="7.62" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="10.922" size="1.4224" layer="95" ratio="12">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.4224" layer="95" ratio="12">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MIC5320">
+<description>&lt;b&gt;MIC5320 Dual ULDO Voltage Regulator&lt;/b&gt;
+&lt;p&gt;The MIC5320 is a tiny Dual Ultra Low-Dropout (ULDO(TM)) linear regulator ideally suited for portable electronics.
+
+&lt;p&gt;Reference: &lt;a href="http://www.micrel.com/_PDF/mic5320.pdf"&gt;http://www.micrel.com/_PDF/mic5320.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MIC5320" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="EN1" pad="6"/>
+<connect gate="G$1" pin="EN2" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT1" pad="4"/>
+<connect gate="G$1" pin="VOUT2" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2931-ADJ" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;LM2931 Low Dropout Adjustable Regulator, Automotive&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Input voltage: 26V max&lt;/li&gt;
+&lt;li&gt;3.3V, 5V, adjustable versions&lt;/li&gt;
+&lt;li&gt;Output Current in Excess of 100 mA&lt;/li&gt;
+&lt;li&gt;Very Low Quiescent Current&lt;/li&gt;
+&lt;li&gt;Dropout Voltage &amp;lt; 0.6V&lt;/li&gt;
+&lt;li&gt;Reverse Battery Protection&lt;/li&gt;
+&lt;li&gt;60V Load Dump Protection&lt;/li&gt;
+&lt;li&gt;−50V Reverse Transient Protection&lt;/li&gt;
+&lt;li&gt;Short Circuit Protection&lt;/li&gt;
+&lt;li&gt;Internal Thermal Overload Protection&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Designed originally for automotive applications, the
+LM2931-N and all regulated circuitry are protected 
+from reverse battery installations or 2 battery jumps.
+During line transients, such as a load dump (60V)
+when the input voltage to the regulator can
+momentarily exceed the specified maximum
+operating voltage, the regulator will automatically shut
+down to protect both internal circuits and the load.
+The LM2931-N cannot be harmed by temporary
+mirror-image insertion. Familiar regulator features
+such as short circuit and thermal overload protection
+are also provided.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm2931-n.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="LM2931-ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="S" package="TO263-5">
+<connects>
+<connect gate="A" pin="ADJ" pad="1"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="IN" pad="4"/>
+<connect gate="A" pin="ON" pad="2"/>
+<connect gate="A" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="TO220-5">
+<connects>
+<connect gate="A" pin="ADJ" pad="1"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="IN" pad="4"/>
+<connect gate="A" pin="ON" pad="2"/>
+<connect gate="A" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M" package="SO08">
+<connects>
+<connect gate="A" pin="ADJ" pad="4"/>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="IN" pad="8"/>
+<connect gate="A" pin="ON" pad="5"/>
+<connect gate="A" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M-GNDPIN7" package="SO08">
+<connects>
+<connect gate="A" pin="ADJ" pad="4"/>
+<connect gate="A" pin="GND" pad="7"/>
+<connect gate="A" pin="IN" pad="8"/>
+<connect gate="A" pin="ON" pad="5"/>
+<connect gate="A" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP2980" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LP2980 Micropower Linear Regulator&lt;/b&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2.1 to 16V Input Voltage Range&lt;/li&gt;
+&lt;li&gt;Ensured 50-mA Output Current&lt;/li&gt;
+&lt;li&gt;Output versions: 5, 4.7, 3.3, 3, and 2.5V, and adjustable&lt;/li&gt;
+&lt;li&gt;Ultra-Low-Dropout Voltage: 120mV @ 50mA&lt;/li&gt;
+&lt;li&gt;Output Voltage Accuracy 0.5% (A Grade)&lt;/li&gt;
+&lt;li&gt;Requires Only 1-μF External Capacitance&lt;/li&gt;
+&lt;li&gt;&amp;lt; 1-μA Quiescent Current When Shutdown&lt;/li&gt;
+&lt;li&gt;Low Ground Pin Current: Typically 375 μA at 50-mA load&lt;/li&gt;
+&lt;li&gt;High Peak Current Capability (150 mA Typical)&lt;/li&gt;
+&lt;li&gt;Wide Supply Voltage Range (16 V Maximum)&lt;/li&gt;
+&lt;li&gt;Fast Dynamic Response to Line and Load&lt;/li&gt;
+&lt;li&gt;Low ZOUT Over Wide Frequency Range&lt;/li&gt;
+&lt;li&gt;Overtemperature and Overcurrent Protection&lt;/li&gt;
+&lt;li&gt;−40°C to 125°C Junction Temperature Range&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The LP2980-N is a 50-mA, fixed-output voltage
+regulator designed specifically to meet the
+requirements of battery-powered applications.&lt;/p&gt;
+
+&lt;p&gt;Using an optimized VIP (Vertically Integrated PNP)
+process, the LP2980-N delivers unequaled
+performance in all specifications critical to batterypowered
+designs:&lt;/p&gt;
+&lt;p&gt;Dropout voltage: Typically 120 mV at 50-mA load,
+and 7 mV at 1-mA load.&lt;/p&gt;
+&lt;p&gt;Ground pin current: Typically 375 μA at 50-mA load,
+and 80 μA at 1-mA load.&lt;/p&gt;
+&lt;p&gt;Sleep mode: Less than 1-μA quiescent current when
+ON/OFF pin is pulled to less than 0.18 V.&lt;/p&gt;
+&lt;p&gt;Minimum part count: Requires only a 1-μF capacitor
+on the regulator output.&lt;/p&gt;
+&lt;p&gt;Precision output: Initial output voltage tolerance of
+±0.5% (A grade).&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-5-EN-ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="M5" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="ADJ" pad="4"/>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV00XX" prefix="U">
+<description>&lt;B&gt;TLV00XX, TLV01XX LDO Voltage Regulator&lt;/b&gt;
+&lt;p&gt;The TLV700xx series of low-dropout (LDO) linear regulators are low quiescent current devices with excellent line and load transient performance. These LDOs are designed for power-sensitive applications.&lt;/p&gt;
+&lt;p&gt;Datasheet: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv70025.pdf"&gt;tlv70025.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-5-EN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1824" prefix="U">
+<description>&lt;B&gt;MCP1824 LDO voltage regulator&lt;/B&gt;
+&lt;ul&gt;
+&lt;li&gt;300 mA Output Current Capability&lt;/li&gt;
+&lt;li&gt;Input Operating Voltage Range: 2.1V to 6.0V&lt;/li&gt;
+&lt;li&gt;Adjustable Output Voltage Range: 0.8V to 5.0V (MCP1824 only)&lt;/li&gt;
+&lt;li&gt;Standard Fixed Output Voltages: 0.8V, 1.2V, 1.8V, 2.5V, 3.0V, 3.3V, 5.0V&lt;/li&gt;
+&lt;li&gt;Low Dropout Voltage: 200 mV Typical at 300 mA&lt;/li&gt;
+&lt;li&gt;Typical Output Voltage Tolerance: 0.4%&lt;/li&gt;
+&lt;li&gt;Stable with 1.0 µF Ceramic Output Capacitor&lt;/li&gt;
+&lt;li&gt;Low Supply Current: 120 µA (typical)&lt;/li&gt;
+&lt;li&gt;Low Shutdown Supply Current: 0.1 µA (typical) (MCP1824 only)&lt;/li&gt;
+&lt;li&gt;Fixed Delay on Power Good Output (MCP1824 only)&lt;/li&gt;
+&lt;li&gt;Short Circuit Current Limiting and Overtemperature Protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The MCP1824/MCP1824S is a 300 mA Low Dropout
+(LDO) linear regulator that provides high current and
+low output voltages. The MCP1824 comes in a fixed or
+adjustable output voltage version, with an output
+voltage range of 0.8V to 5.0V.&lt;/P&gt;
+&lt;p&gt;&lt;a href="http://ww1.microchip.com/downloads/en/devicedoc/22070a.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="V-REG-5-EN-ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1801" prefix="U">
+<description>&lt;b&gt;Microchip MCP1801 LDO Regulator&lt;/b&gt;
+
+&lt;p&gt;The MCP1801 is a family of CMOS low dropout (LDO)
+voltage regulators that can deliver up to 150 mA of
+current while consuming only 25 μA of quiescent
+current (typical) with input operating range from 2.0V to 10.0V.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="MCP1801" symbol="V-REG-5-EN-FIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="MCP1801" pin="EN" pad="3"/>
+<connect gate="MCP1801" pin="GND" pad="2"/>
+<connect gate="MCP1801" pin="IN" pad="1"/>
+<connect gate="MCP1801" pin="NC" pad="4"/>
+<connect gate="MCP1801" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LD29150" prefix="U" uservalue="yes">
+<description>&lt;B&gt;STM LD29150 LDO Voltage Regulator&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Very low dropout voltage (typ. 0.4 at 1.5 A)
+&lt;li&gt;Guaranteed output current up to 1.5 A
+&lt;li&gt;Output voltage accuracy: ± 1% at 25 °C
+&lt;li&gt;Adjustable and fixed voltages: 1.8V, 2.5V, 3.3V, 5.0V&lt;/li&gt;
+&lt;li&gt;Internal current and thermal limit
+&lt;/ul&gt;
+&lt;p&gt;The LD29150xx is a high current, high accuracy, 
+low-dropout voltage regulator series. These 
+regulators feature 400 mV dropout voltage and 
+very low ground current. Designed for high 
+current loads, these devices are also used in 
+lower current, extremely low dropout-critical 
+systems, where their tiny dropout voltage and 
+ground current values are important attributes. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00003403.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DT" package="DPAK">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1825" prefix="U">
+<description>&lt;b&gt;Microchip MCP1824 LDO Voltage Regulator&lt;/b&gt;
+&lt;p&gt;The MCP1825/MCP1825S is a 500 mA Low Dropout
+(LDO) linear regulator that provides high current and
+low output voltages.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22056b.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="&gt;NAME" symbol="V-REG-3-FIX-HS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SOT223" package="SOT-223-3">
+<connects>
+<connect gate="&gt;NAME" pin="GND" pad="2"/>
+<connect gate="&gt;NAME" pin="HEATSINK" pad="4"/>
+<connect gate="&gt;NAME" pin="VIN" pad="1"/>
+<connect gate="&gt;NAME" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LF50CDT" prefix="U" uservalue="yes">
+<description>&lt;b&gt;5V LDO Voltage Regulator&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Very low-dropout voltage (0.45 V)
+&lt;li&gt;Very low quiescent current (typ. 50 µA in OFF mode, 500 µA in ON mode)
+&lt;li&gt;Output current up to 500 mA
+&lt;li&gt;Logic-controlled electronic shutdown
+&lt;li&gt;Output voltages of 1.5; 1.8; 2.5; 3.3; 4.7; 5; 6; 8; 8.5; 9; 12 V
+&lt;li&gt;Automotive grade product: 1.8 V, 2.5 V, 3.3 V 5.0 V, 8.0 V, 8.5 V VOUT in DPAK and PPAK packages
+&lt;li&gt;Internal current and thermal limit
+&lt;li&gt;Only 2.2 µF for stability
+&lt;li&gt;Available in ±1% (AB), ± 1.5% (AC) or ± 2% (C) selection at 25 °C
+&lt;li&gt;Supply voltage rejection: 80 db (typ.)
+&lt;li&gt;Temperature range: from -40 to 125 °C
+&lt;/ul&gt;
+
+
+
+&lt;p&gt;The LFxxAB/LFxxC are very low drop regulators 
+available in PENTAWATT, TO-220, TO-220FP, 
+DPAK and PPAK package and in a wide range of 
+output voltages.&lt;/p&gt;&lt;p&gt;The very low drop voltage (0.45 
+V) and the very low quiescent current make them 
+particularly suitable for low noise, low power 
+applications and specially in battery powered 
+systems&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00000546.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPAK">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2940" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LM2940 LDO Voltage Regulator&lt;/b&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input Voltage Range = 6 V to 26 V&lt;/li&gt;
+&lt;li&gt;Dropout Voltage Typically 0.5 V at IOUT = 1 A&lt;/li&gt;
+&lt;li&gt;Reverse Battery Protection &lt;/li&gt;
+&lt;li&gt;Internal Short Circuit Current Limit &lt;/li&gt;
+&lt;li&gt;electrostatic discharge protection (±2kV)&lt;/li&gt;
+&lt;li&gt;Tab is GND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The LM2940-N/LM2940C positive voltage regulator features the ability to source 1A of output current with a dropout voltage of typically 0.5V and a maximum of 1V over the entire temperature range. Furthermore, a quiescent current reduction circuit has been included which reduces the ground current when the differential between the input voltage and the output
+exceeds approximately 3V.&lt;/p&gt;
+
+&lt;p&gt;Designed also for vehicular applications, the LM2940-N/LM2940C and all regulated circuitry are protected from reverse battery installations or 2-battery jumps. During line transients, such as load dump when the
+input voltage can momentarily exceed the specified maximum operating voltage, the regulator will automatically shut down to protect both the internal circuits and the load. The LM2940/LM2940C cannot be harmed by temporary mirror-image insertion.
+Familiar regulator features such as short circuit and thermal overload protection are also provided.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm2940-n.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p.</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX-TAB" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="DCY" package="SOT-223-3">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KTT" package="TO263-3">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="TAB"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NDE" package="TO220L1">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1755" prefix="IC">
+<description>&lt;b&gt;Microchip MCP1755 LDO Voltage Regulator&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;High PSRR: &gt;70 dB @ 1 kHz, typical&lt;/li&gt;
+&lt;li&gt;68.0 µA Typical Quiescent Current&lt;/li&gt;
+&lt;li&gt;Input Operating Voltage Range: 3.6V to 16.0V&lt;/li&gt;
+&lt;li&gt;300 mA Output Current for all Output Voltages&lt;/li&gt;
+&lt;li&gt;Low Dropout Voltage, 300 mV typical @ 300 mA&lt;/li&gt;
+&lt;li&gt;Standard Output Voltage Options (1.8V, 2.5V, 2.8V, 3.0V, 3.3V, 4.0V, 5.0V)&lt;/li&gt;
+&lt;li&gt;Output Voltage Range 1.8V to 5.5V in 0.1V Increments (tighter increments are also possible per design)&lt;/li&gt;
+&lt;li&gt;Output Voltage Tolerances of ±2.0% over entire Temperature Range&lt;/li&gt;
+&lt;li&gt;Stable with Minimum 1.0 µF Output Capacitance&lt;/li&gt;
+&lt;li&gt;Power Good Output&lt;/li&gt;
+&lt;li&gt;Shutdown Input&lt;/li&gt;
+&lt;li&gt;True Current Foldback Protection&lt;/li&gt;
+&lt;li&gt;Short-Circuit Protection&lt;/li&gt;
+&lt;li&gt;Overtemperature Protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The MCP1755/1755S is a family of CMOS low-dropout
+(LDO) voltage regulators that can deliver up to 300 mA
+of current while consuming only 68.0 μA of quiescent
+current (typical). The input operating range is specified
+from 3.6V to 16.0V, making it an ideal choice for four to
+six primary cell battery-powered applications, 12V
+mobile applications and one to three cell Li-Ion-
+powered applications.&lt;/p&gt;
+&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/25160A.pdf"&gt;datasheet.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-5-EN-PWRGD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="IN" pad="1"/>
+<connect gate="U1" pin="OUT" pad="5"/>
+<connect gate="U1" pin="PGD" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP5500" prefix="U">
+<description>&lt;b&gt;NCP5500, NCV5500, NCP5501, NCV5501 LDO Voltage Regulator&lt;/b&gt;
+&lt;p&gt;These linear low drop voltage regulators provide up to 500 mA over
+a user−adjustable output range of 1.25 V to 5.0 V, or at a fixed output
+voltage of 1.5 V, 3.3 V or 5.0 V, with typical output voltage accuracy
+better than 3%. Reverse bias protection, thermal shutdown, and short
+circuit protection. Dropout is 230 mV at 500 mA&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DPAK">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC1262" prefix="U">
+<description>&lt;b&gt;Microchip TC1262 LDO Regulator&lt;/b&gt;
+&lt;p&gt;
+The TC1262 is a fixed output, high accuracy (typically
+±0.5%) CMOS low dropout regulator. Designed specif-
+ically for battery-operated systems, the TC1262’s
+CMOS construction eliminates wasted ground current,
+significantly extending battery life. Total supply current
+is typically 80A at full load (20 to 60 times lower than
+in bipolar regulators).&lt;/p&gt;
+&lt;p&gt;TC1262 key features include ultra low noise operation,
+very low dropout voltage (typically 350mV at full load),
+and fast response to step changes in load.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX-TAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_VDB" package="SOT-223-3">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_VAB" package="TO220L1">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_VEB" package="D2PACK-3">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5205" prefix="U">
+<description>&lt;b&gt;ULDO Voltage regulator&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Voltage input: 2.5-16V&lt;/li&gt;
+&lt;li&gt;Guaranteed 150mA output&lt;/li&gt;
+&lt;li&gt;Low dropout voltage: &amp;lt; 350mV @ 150mA, &amp;lt; 70mV @ 50mA&lt;/li&gt;
+&lt;li&gt;High output voltage accuracy (1%)&lt;/li&gt;
+&lt;li&gt;Ultra-low-noise output&lt;/li&gt;
+&lt;li&gt;Low quiescent current&lt;/li&gt;
+&lt;li&gt;Reverse-battery protection&lt;/li&gt;
+&lt;li&gt;“Zero” off-mode current&lt;/li&gt;
+&lt;li&gt;Logic-controlled electronic enable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The MIC5205 is an efficient linear voltage regulator with ultra low-noise output, very low dropout voltage (typically 17mV at light loads and 165mV at 150mA), and very low ground current (600⎧A at 100mA output). The MIC5205 offers better than 1% initial accuracy.&lt;/p&gt;
+&lt;p&gt;Designed especially for hand-held, battery-powered devices, the MIC5205 includes a CMOS or TTL compatible enable/shutdown control input. When shut down, power consumption drops nearly to zero. Regulator ground current increases only slightly in dropout, further prolonging battery life.&lt;/p&gt;
+&lt;p&gt;Key MIC5205 features include a reference bypass pin to improve its already excellent low-noise performance, reversed-battery protection, current limiting, and overtemperature shutdown.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.micrel.com/_PDF/mic5205.pdf"&gt;datasheet.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="MIC5205" symbol="V-REG-5-EN-BYP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="MIC5205" pin="BYP" pad="4"/>
+<connect gate="MIC5205" pin="EN" pad="3"/>
+<connect gate="MIC5205" pin="GND" pad="2"/>
+<connect gate="MIC5205" pin="IN" pad="1"/>
+<connect gate="MIC5205" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L4941" prefix="U" uservalue="yes">
+<description>&lt;B&gt;LD4941 LDO 1A Regulator&lt;/B&gt;
+&lt;ul&gt;
+&lt;li&gt;Precise 5, 8.5, 12 V outputs&lt;/li&gt;
+&lt;li&gt;Low dropout voltage (450 mV typ. at 1 A)&lt;/li&gt;
+&lt;li&gt;17V input (30V abs. max)&lt;/li&gt;
+&lt;li&gt;Very low quiescent current&lt;/li&gt;
+&lt;li&gt;Thermal shutdown&lt;/li&gt;
+&lt;li&gt;Short-circuit protection&lt;/li&gt;
+&lt;li&gt;Reverse polarity protection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The L4941 is a three terminal 5V positive 
+regulators available in TO-220 and DPAK 
+packages, making it useful in a wide range of 
+industrial and consumer applications. Thanks to 
+its very low input/output voltage drop, these 
+devices are particularly suitable for battery 
+powered equipments, reducing consumption and 
+prolonging battery life. It employs internal current 
+limiting, antisaturation circuit, thermal shut-down 
+and safe area protection.&lt;/p&gt;
+&lt;p&gt;Reference: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BDT-TR" package="DPAK">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BV" package="TO220BV">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BH" package="TO220BH">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BH-NH" package="TO220BH-NH">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM1117" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LDO Voltage Regulator&lt;/b&gt;
+
+&lt;h3&gt;NCP1117&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Output Current in Excess of 1.0 A&lt;/li&gt;
+&lt;li&gt;1.2 V Maximum Dropout Voltage at 800 mA Over Temperature&lt;/li&gt;
+&lt;li&gt;Fixed Output Voltages of 1.5, 1.8, 1.9, 2.0, 2.5, 2.85, 3.3, 5.0, and 12 V&lt;/li&gt;
+&lt;li&gt;Adjustable Output Voltage Option&lt;/li&gt;
+&lt;li&gt;No Minimum Load Requirement for Fixed Voltage Output Devices&lt;/li&gt;
+&lt;li&gt;Reference/Output Voltage Trimmed to ±1.0%&lt;/li&gt;
+&lt;li&gt;Current Limit, Safe Operating and Thermal Shutdown Protection&lt;/li&gt;
+&lt;li&gt;Operation to 20 V Input&lt;/li&gt;
+&lt;li&gt;NCV Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC−Q100 Qualified and PPAP Capable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"&gt;datasheet.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;LM1117&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Available in 1.8 V, 2.5 V, 3.3 V, 5 V, and adjustable versions&lt;/li&gt;
+&lt;li&gt;Output Current 800 mA&lt;/li&gt;
+&lt;li&gt;Current Limiting and Thermal Protection&lt;/li&gt;
+&lt;li&gt;Space-Saving SOT-223 and WSON Packages&lt;/li&gt;
+&lt;li&gt;Line Regulation 0.2% (Maximum)&lt;/li&gt;
+&lt;li&gt;Load Regulation 0.4% (Maximum)&lt;/li&gt;
+&lt;li&gt;Temperature: LM1117: 0°C to 125°C; LM1117I: −40°C to 125°C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;LM1117 (Rev. N) is a series of low dropout voltage regulators of 1.2V at 800mA of load current. It has the same pin-out as Texas Instruments' industry standard LM317. The LM1117-N is available in an adjustable version, available in five fixed voltages, 1.8V, 2.5V, 2.85V, 3.3V, and 5V. The LM1117-N offers current limiting and thermal shutdown. Its circuit includes a zener trimmed to within ±1%.
+
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm1117.pdf"&gt;datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX-HS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SOT223" package="SOT-223-3">
+<connects>
+<connect gate="U1" pin="GND" pad="1"/>
+<connect gate="U1" pin="HEATSINK" pad="4"/>
+<connect gate="U1" pin="VIN" pad="3"/>
+<connect gate="U1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TO22OH" package="TO220L1">
+<connects>
+<connect gate="U1" pin="GND" pad="1"/>
+<connect gate="U1" pin="HEATSINK" pad="4"/>
+<connect gate="U1" pin="VIN" pad="3"/>
+<connect gate="U1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMZ14202" prefix="U">
+<description>&lt;b&gt;LMZ14202/LMZ14203 2A/3A Switching Regulator&lt;/b&gt;
+
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lmz14203h.pdf"&gt;datasheet.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Texas Instruments LMZ14203H SIMPLE SWITCHER® power
+module is an easy-to-use step-down DC-DC solution
+that can drive up to 3-A load with exceptional power
+conversion efficiency, line and load regulation, and
+output accuracy. The LMZ14203H is available in an
+innovative package that enhances thermal performance 
+and allows for hand or machine soldering.&lt;/p&gt;
+
+&lt;p&gt;The LMZ14203H can accept an input voltage rail
+between 6 V and 42 V and deliver an adjustable and
+highly accurate output voltage as low as 5 V. The
+LMZ14203H only requires three external resistors
+and four external capacitors to complete the power
+solution. The LMZ14203H is a reliable and robust
+design with the following protection features: thermal
+shutdown, input undervoltage lockout, output
+overvoltage protection, short-circuit protection, output
+current limit, and allows start-up into a prebiased
+output. A single resistor adjusts the switching
+frequency up to 1 MHz.&lt;/p&gt;
+
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrated Shielded Inductor&lt;/li&gt;
+&lt;li&gt;Simple PCB Layout&lt;/li&gt;
+&lt;li&gt;Flexible Start-Up Sequencing Using External Soft-Start and Precision Enable Protection Against Inrush Currents&lt;/li&gt;
+&lt;li&gt;Input UVLO and Output Short-Circuit Protection&lt;/li&gt;
+&lt;li&gt;–40°C to 125°C Junction Temperature Range&lt;/li&gt;
+&lt;li&gt;Single Exposed Pad and Standard Pinout for Easy Mounting and Manufacturing&lt;/li&gt;
+&lt;li&gt;Low Output Voltage Ripple&lt;/li&gt;
+&lt;li&gt;Pin-to-Pin Compatible Family:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;LMZ14203H/2H/1H (42 V Maximum, 3-A, 2-A, 1-A)&lt;/li&gt;
+&lt;li&gt;LMZ14203/2/1 (4 2V Maximum, 3-A, 2-A, 1-A)&lt;/li&gt;
+&lt;li&gt;LMZ12003/2/1 (20 V Maximum, 3-A, 2-A, 1-A)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully Enabled for WEBENCH® Power Designer&lt;/li&gt;
+&lt;li&gt;Electrical Specifications&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Up to 3-A Output Current&lt;/li&gt;
+&lt;li&gt;Input Voltage Range 6 V to 42 V&lt;/li&gt;
+&lt;li&gt;Output Voltage as Low as 5 V&lt;/li&gt;
+&lt;li&gt;Efficiency up to 97%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Performance Benefits&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High Efficiency Reduces System Heat Generation&lt;/li&gt;
+&lt;li&gt;Low Radiated EMI (EN 55022 Class B Tested)&lt;/li&gt;
+&lt;li&gt;No Compensation Required&lt;/li&gt;
+&lt;li&gt;Low Package Thermal Resistance&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="&gt;NAME" symbol="LMZ14202" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-PMOD">
+<connects>
+<connect gate="&gt;NAME" pin="EN" pad="3"/>
+<connect gate="&gt;NAME" pin="FB" pad="6"/>
+<connect gate="&gt;NAME" pin="GND" pad="4"/>
+<connect gate="&gt;NAME" pin="RON" pad="2"/>
+<connect gate="&gt;NAME" pin="SS" pad="5"/>
+<connect gate="&gt;NAME" pin="THERMAL" pad="PAD"/>
+<connect gate="&gt;NAME" pin="VIN" pad="1"/>
+<connect gate="&gt;NAME" pin="VOUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP3513E" prefix="U">
+<description>&lt;b&gt;AP3513E switching regulator&lt;/b&gt;
+
+&lt;p&gt;The Diodes, Inc. AP3513E is a 500kHz fixed frequency, current mode, PWM
+synchronous buck (step-down) DC-DC converter, capable of driving a
+3A load with high efficiency, excellent line and load regulation. The
+AP3513E exhibits high efficiency at light load. The device integrates
+N-channel power MOSFET switch with low on-resistance. Current
+mode control provides fast transient response and cycle-by-cycle
+current limit.&lt;/p&gt;
+
+&lt;p&gt;The AP3513E employs complete protection to ensure system
+security, including output Over Voltage Protection, input Under
+Voltage Lock Out, programmable Soft-start, Over Temperature
+Protection and hiccup mode Short Circuit Protection.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.diodes.com/_files/datasheets/AP3513E.pdf"&gt;datasheet.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Input Voltage Range: 4.5V to 18V&lt;/li&gt;
+&lt;li&gt;Fixed 500kHz Frequency&lt;/li&gt;
+&lt;li&gt;High Efficiency at Light Load&lt;/li&gt;
+&lt;li&gt;Output Current: 3A&lt;/li&gt;
+&lt;li&gt;Current Mode Control&lt;/li&gt;
+&lt;li&gt;Built-in Over Current Protection&lt;/li&gt;
+&lt;li&gt;Built-in Thermal Shutdown Function&lt;/li&gt;
+&lt;li&gt;Built-in UVLO Function&lt;/li&gt;
+&lt;li&gt;Built-in Over Voltage Protection&lt;/li&gt;
+&lt;li&gt;Programmable Soft-start&lt;/li&gt;
+&lt;li&gt;Hiccup Mode SCP&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="AP3513E" symbol="SWREG1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO-8EP">
+<connects>
+<connect gate="AP3513E" pin="BS" pad="1"/>
+<connect gate="AP3513E" pin="COMP" pad="6"/>
+<connect gate="AP3513E" pin="EN" pad="7"/>
+<connect gate="AP3513E" pin="FB" pad="5"/>
+<connect gate="AP3513E" pin="GND" pad="4"/>
+<connect gate="AP3513E" pin="HEATSINK" pad="PAD"/>
+<connect gate="AP3513E" pin="SS" pad="8"/>
+<connect gate="AP3513E" pin="SW" pad="3"/>
+<connect gate="AP3513E" pin="VIN" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCV4264" prefix="U">
+<description>&lt;b&gt;NCV4264-2 LDO Regulator&lt;/b&gt;
+&lt;p&gt;The NCV4264−2 is a low drop out (LDO) regulator in 3.3V and
+5.0V fixed output and is AEC-Q100 Grade 1 qualified. The output
+stage supplies 100 mA with +/- 2.0% output voltage accuracy.&lt;/p&gt;
+&lt;p&gt;Maximum dropout voltage is 500 mV at 100 mA load current.
+It is internally protected against 45 V input transients, input supply
+reversal, output overcurrent faults, and excess die temperature. No
+external components are required to enable these features.&lt;/p&gt;
+&lt;p&gt;The heatsink tab is connected to GND.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3.3 V and 5.0 V Fixed Output&lt;/li&gt;
+&lt;li&gt;+/- 2.0% Output Accuracy, Over Full Temperature Range&lt;/li&gt;
+&lt;li&gt;60 mA Maximum Quiescent Current at IOUT = 100 mA&lt;/li&gt;
+&lt;li&gt;500 mV Maximum Dropout Voltage at 100 mA Load Current&lt;/li&gt;
+&lt;li&gt;Wide Input Voltage Operating Range of 4.5 V to 45 V&lt;/li&gt;
+&lt;li&gt;AEC−Q100 Grade 1 Qualified and PPAP Capable&lt;/li&gt;
+&lt;li&gt;Internal Fault Protection&lt;/li&gt;
+&lt;li&gt;−42 V Reverse Voltage&lt;/li&gt;
+&lt;li&gt;Short Circuit/Overcurrent&lt;/li&gt;
+&lt;li&gt;Thermal Overload&lt;/li&gt;
+&lt;li&gt;This is a Pb−Free Device&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://www.onsemi.com/pub_link/Collateral/NCV4264-2-D.PDF"&gt;datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX-TAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-223-3">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="TAB" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POLOLU-S10V4" prefix="B">
+<description>&lt;b&gt;Pololu 5V Step-up, Step-down Switching Regulator&lt;/b&gt;
+&lt;p&gt;This switching regulator uses the SEPIC topology to produce 5 V from input voltages between 2.5 V and 18 V. The wide input range coupled with its ability to convert both higher and lower input voltages makes it useful for applications where the power supply voltage can vary greatly, as with batteries that start above but discharge below 5 V. The compact (0.4″ × 0.575″) module can supply over 400 mA in typical applications.&lt;/b&gt;
+&lt;p&gt;&lt;a href="https://www.pololu.com/product/2121"&gt;product link&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="B1" symbol="V-REG-5-EN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POLOLU-S10V4">
+<connects>
+<connect gate="B1" pin="EN" pad="!SHDN"/>
+<connect gate="B1" pin="GND" pad="GND"/>
+<connect gate="B1" pin="IN" pad="VIN"/>
+<connect gate="B1" pin="OUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP1509" prefix="U">
+<description>&lt;b&gt;AP1509, 150KHz, 2A PWM BUCK DC/DC CONVERTER&lt;/b&gt;
+&lt;p&gt;The AP1509 series are monolithic IC designed for a stepdown
+DC/DC converter, and own the ability of driving a
+2A load without additional transistor. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.diodes.com/_files/datasheets/AP1509.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="AP1509" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="U1" pin="FB" pad="3"/>
+<connect gate="U1" pin="GND1" pad="5"/>
+<connect gate="U1" pin="GND2" pad="6"/>
+<connect gate="U1" pin="GND3" pad="7"/>
+<connect gate="U1" pin="GND4" pad="8"/>
+<connect gate="U1" pin="OUT" pad="2"/>
+<connect gate="U1" pin="SD" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RT8293B" prefix="U">
+<description>&lt;b&gt;3A, 23V, 1.2MHz Synchronous Step-Down Converter&lt;/b&gt;
+
+&lt;p&gt;The RT8293B is a high efficiency, monolithic synchronous
+step-down DC/DC converter (regulator) that can deliver up to 3A
+output current from a 4.5V to 23V input supply.&lt;/p&gt;
+
+&lt;p&gt;The RT8293B's current mode architecture and external
+compensation allow the transient response to be
+optimized over a wide range of loads and output capacitors.
+Cycle-by-cycle current limit provides protection against
+shorted outputs and soft-start eliminates input current
+surge during start-up.&lt;/p&gt;
+
+&lt;p&gt;The RT8293B provides output under
+voltage protection and thermal shutdown protection. The
+low current (&amp;lt;3μA) shutdown mode provides output
+disconnect, enabling easy power management in battery-
+powered systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.richtek.com/assets/product_file/RT8293B/DS8293B-03.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="RT8293B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO-8EP">
+<connects>
+<connect gate="U1" pin="BOOT" pad="1"/>
+<connect gate="U1" pin="COMP" pad="6"/>
+<connect gate="U1" pin="EN" pad="7"/>
+<connect gate="U1" pin="FB" pad="5"/>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="PAD" pad="PAD"/>
+<connect gate="U1" pin="SS" pad="8"/>
+<connect gate="U1" pin="SW" pad="3"/>
+<connect gate="U1" pin="VIN" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS56320X" prefix="U">
+<description>&lt;b&gt;TPS56320x 3-A Synchronous Step-Down Voltage Regulator&lt;/b&gt;
+&lt;p&gt;The TPS563201 and TPS563208 are simple, easy-to-use, 3A synchronous step-down converters in SOT-23 package. The devices are optimized to operate with minimum external component counts and also optimized to achieve low standby current&lt;/p&gt;
+&lt;p&gt;These switch mode power supply (SMPS) devices employ D-CAP2 mode control providing a fast transient response and supporting
+both low-equivalent series resistance (ESR) output capacitors such as specialty polymer and ultra-low ESR ceramic capacitors with no external
+compensation components.&lt;/p&gt;
+&lt;p&gt;TPS563201 operates in pulse skip mode, which maintains high efficiency during light load operation. The TPS563201 and TPS563208 are
+available in a 6-pin 1.6mm x 2.9mm DDC package and specified from a 40°C to 125°C junction temperature.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tps563201.pdf"&gt;Datasheet.pdf&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrated 95-mΩ and 57-mΩ FETs &lt;/li&gt;
+&lt;li&gt;D-CAP2™ Mode Control with fast transient
+response &lt;/li&gt;
+&lt;li&gt;Input Voltage Range: 4.5 V to 17 V&lt;/li&gt;
+&lt;li&gt;Output Voltage Range: 0.76 V to 7 V&lt;/li&gt;
+&lt;li&gt;Pulse-skip mode (TPS563201) or Continuous Current Mode (TPS563208)&lt;/li&gt;
+&lt;li&gt;580-kHz Switching Frequency&lt;/li&gt;
+&lt;li&gt;Low Shutdown Current Less than 10 µA&lt;/li&gt;
+&lt;li&gt;2% Feedback Voltage Accuracy (25 ºC)&lt;/li&gt;
+&lt;li&gt;Startup from Pre-Biased Output Voltage&lt;/li&gt;
+&lt;li&gt;Cycle-by-Cycle Overcurrent Limit&lt;/li&gt;
+&lt;li&gt;Hiccup-mode Overcurrent Protection&lt;/li&gt;
+&lt;li&gt;Non-Latch UVP and TSD Protections&lt;/li&gt;
+&lt;li&gt;Fixed Soft Start: 1.0 ms&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="U1" symbol="TPS56320X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="U1" pin="EN" pad="5"/>
+<connect gate="U1" pin="FB" pad="4"/>
+<connect gate="U1" pin="GND" pad="1"/>
+<connect gate="U1" pin="SW" pad="2"/>
+<connect gate="U1" pin="VBST" pad="6"/>
+<connect gate="U1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="78XX" prefix="U" uservalue="yes">
+<description>&lt;b&gt;78XX Linear Voltage Regulator&lt;/b&gt;
+&lt;p&gt;The venerable 7800-series Linear Voltage Regulator, including 7805, 7809, 7812, 7815, 7862 in 5 V, 6.2 V, 8.2 V, 9 V, 12 V, and 15 V, respectively&lt;/p&gt;
+
+&lt;p&gt;Datasheets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm78l05.pdf"&gt;TI_LM78L05.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf"&gt;Fairchild_LM7805.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TO220H" package="TO220BH">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TO220V" package="TO220BV">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TO92" package="TO92D-">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TO220H-NH" package="TO220BH-NH">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2931" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LM2931 Low Dropout Adjustable Regulator, Automotive&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Input voltage: 26V max&lt;/li&gt;
+&lt;li&gt;3.3V, 5V, adjustable versions&lt;/li&gt;
+&lt;li&gt;Output Current in Excess of 100 mA&lt;/li&gt;
+&lt;li&gt;Very Low Quiescent Current&lt;/li&gt;
+&lt;li&gt;Dropout Voltage &amp;lt; 0.6V&lt;/li&gt;
+&lt;li&gt;Reverse Battery Protection&lt;/li&gt;
+&lt;li&gt;60V Load Dump Protection&lt;/li&gt;
+&lt;li&gt;−50V Reverse Transient Protection&lt;/li&gt;
+&lt;li&gt;Short Circuit Protection&lt;/li&gt;
+&lt;li&gt;Internal Thermal Overload Protection&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Designed originally for automotive applications, the
+LM2931-N and all regulated circuitry are protected 
+from reverse battery installations or 2 battery jumps.
+During line transients, such as a load dump (60V)
+when the input voltage to the regulator can
+momentarily exceed the specified maximum
+operating voltage, the regulator will automatically shut
+down to protect both internal circuits and the load.
+The LM2931-N cannot be harmed by temporary
+mirror-image insertion. Familiar regulator features
+such as short circuit and thermal overload protection
+are also provided.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm2931-n.pdf"&gt;Datasheet.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="U1" symbol="V-REG-3-FIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AD2T" package="D2PACK">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AT-V" package="TO220S">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AT-H" package="TO220BH">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AT-H-NH" package="TO220BH-NH">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Z" package="TO92D-">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ADT" package="DPAK">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV61224" prefix="U">
+<description>&lt;b&gt;TLV61224 Single-Cell, High-Efficient, Step-Up Converter in 6-Pin SC-70 Package&lt;/b&gt;
+
+&lt;p&gt;The TLV61224 device provides a power-supply solution for products powered by either a single-cell 
+or 2-cell alkaline or NiMH, or 1-cell Li-primary battery.
+
+&lt;p&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tlv61224.pdf"&gt;datasheet.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="U1" symbol="TLV61224" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70-6">
+<connects>
+<connect gate="U1" pin="EN" pad="6"/>
+<connect gate="U1" pin="FB" pad="2"/>
+<connect gate="U1" pin="GND" pad="3"/>
+<connect gate="U1" pin="L" pad="4"/>
+<connect gate="U1" pin="VIN" pad="1"/>
+<connect gate="U1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV61220" prefix="U" uservalue="yes">
+<description>&lt;B&gt;TLV61220 Low-Input Voltage Step-Up Voltage Converter / Regulator&lt;/B&gt;
+
+&lt;P&gt;
+
+The TLV61220 device provides a power-supply solution for products powered by either a single-cell, 
+two-cell, or three-cell alkaline, NiCd or NiMH, or one-cell Li-Ion or Li-polymer battery. Possible output
+
+&lt;P&gt;Features:
+&lt;UL&gt;
+&lt;LI&gt;Up to 95% Efficiency at Typical Operating Conditions &lt;/LI&gt;
+&lt;LI&gt;5.5-μA Quiescent Current &lt;/LI&gt;
+&lt;LI&gt;Startup Into Load at 0.7-V Input Voltage currents depend on the input-to-output voltage ratio.&lt;/LI&gt;
+&lt;LI&gt;Operating Input Voltage from 0.7 V to 5.5 V&lt;/LI&gt;
+&lt;LI&gt;Pass-Through Function during Shutdown&lt;/LI&gt;
+&lt;LI&gt;Minimum Switching Current 200 mA&lt;/LI&gt;
+&lt;LI&gt;Protections include output overvoltage, overtemperature, input undervoltage lockout&lt;/LI&gt;
+&lt;LI&gt;Adjustable Output Voltage from 1.8 V to 5.5 V&lt;/LI&gt;
+&lt;LI&gt;Small 6-pin Thin SOT-23 Package&lt;/LI&gt;
+&lt;/UL&gt;
+
+Datasheet: &lt;A HREF="http://www.ti.com/lit/ds/symlink/tlv61220.pdf"&gt;TLV61220.pdf&lt;/A&gt;</description>
+<gates>
+<gate name="U1" symbol="TLV61220" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="U1" pin="EN" pad="3"/>
+<connect gate="U1" pin="FB" pad="4"/>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="SW" pad="1"/>
+<connect gate="U1" pin="VBAT" pad="6"/>
+<connect gate="U1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

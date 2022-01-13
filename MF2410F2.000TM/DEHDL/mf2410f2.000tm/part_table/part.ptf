@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF2410F2.000TM'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AEM", "MF2410F2.000TM" (!) = "", "FUSC6125X236N", "Fuses Chip", "637-MF2410F2.000TM", "https://www.mouser.com/Search/Refine.aspx?Keyword=637-MF2410F2.000TM", "", "", "Surface Mount Fuses 250V 2.00A Inrush Current", "https://www.mouser.com/datasheet/2/9/MF2410 Datasheet2013-1155489.pdf", "2.36 mm"
+END_PART
+
+END.

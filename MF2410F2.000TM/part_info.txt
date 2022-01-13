@@ -1,0 +1,9 @@
+Manufacturer=AEM
+PartNumber=MF2410F2.000TM
+PartCategory=Fuse
+PackageCategory=Fuses Chip
+PinCount=2
+Version=1.1
+Released=2019-10-19 03:12:00
+Downloaded=2020-02-26 13:56:20
+3D=Y

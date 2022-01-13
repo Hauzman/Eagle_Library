@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MF2410F2_000TM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-19-03:12:00)
+    (mountForm default
+        (footprintRef "FUSC6125X236N")
+        (spec "System")
+    )
+)

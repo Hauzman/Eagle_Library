@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -490,12 +490,6 @@ metal electrode face (MELF)</description>
 <description>DIODE</description>
 <packageinstances>
 <packageinstance name="SMB"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:21043774/1" type="box">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="SOT23"/>
 </packageinstances>
 </package3d>
 </packages3d>

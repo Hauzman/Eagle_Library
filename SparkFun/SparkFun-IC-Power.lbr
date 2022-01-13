@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1493,7 +1493,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <packageinstance name="V-REG_DPACK"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:18135660/3" type="model">
+<package3d name="SOT223" urn="urn:adsk.eagle:package:39069/1" type="box">
 <description>SOT-223</description>
 <packageinstances>
 <packageinstance name="SOT223"/>
@@ -1612,7 +1612,7 @@ Source: http://www.linear.com .. LT1996</description>
 <packageinstance name="MSOP-12_GND"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:18135631/2" type="model">
+<package3d name="SOT223" urn="urn:adsk.eagle:package:21658509/2" type="model">
 <description>SOT-223</description>
 <packageinstances>
 <packageinstance name="SOT223"/>
@@ -2628,7 +2628,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <connect gate="G$1" pin="OUT@1" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18135660/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39069/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2688,7 +2688,7 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18135660/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39069/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
