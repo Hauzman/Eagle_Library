@@ -15,4 +15,4 @@ HLK-Power Supply one library | - this is one lib for 3 model of HLK-Power Supply
 ESP32-WROOM | ESP32-WROOM library  | **`06.11.2020`**
 Update | New library's  | **`13.01.2022`**
 ESP32-S3FN8 | ESP32-S3FN8 library  | **`11.02.2022`**
-Ingion NN01-102 | Chip RF Antena-  and 3D model  | **`11.01.2022`**
+Ingion NN01-102 | Chip RF Antena-  and 3D model  | **`11.02.2022`**
